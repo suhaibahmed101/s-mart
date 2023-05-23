@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Shopping Cart</title>
+</head>
+
+<body>
+  <div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          </ul>
+          <span class="navbar-text">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Featuring</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Categories
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Men</a></li>
+                  <li><a class="dropdown-item" href="#">Women</a></li>
+                  <li><a class="dropdown-item" href="#">Kids</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+             
+
+            </ul>
+          </span>
+        </div>
+      </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img height="470px" src="https://dcassetcdn.com/design_img/3704770/521814/22250153/e358m2he83qyyp3f0gq19hpt53_image.png"
+            class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img height="470px" src="https://marketplace.canva.com/EAFYukF7yiE/1/0/1600w/canva-white-and-brown-minimalist-fashion-banner-landscape-IC37SsBph0I.jpg"
+            class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img height="470px" src="https://graphicgoogle.com/wp-content/uploads/2018/01/Men-Women-Apparel-Facebook-Ad-Banner-Template-1200x627.jpg"
+            class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div>
+      <div class="mainCard">
+        <div class="one1">
+          <div><svg xmlns="http://www.w3.org/2000/svg" width="80" fill="currentColor" class="bi bi-truck"
+              viewBox="0 0 16 16">
+              <path
+                d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
+            </svg></div>
+          <div>
+            <h3>Free Shipping</h3>
+          </div>
+        </div>
+        <div class="two2">
+          <div><svg xmlns="http://www.w3.org/2000/svg" width="80" fill="currentColor" class="bi bi-star-fill"
+              viewBox="0 0 16 16">
+              <path
+                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+            <div>
+              <h3>Top Reviews</h3>
+            </div>
+          </div>
+        </div>
+        <div class="three3">
+          <div><svg xmlns="http://www.w3.org/2000/svg" width="80" fill="currentColor" class="bi bi-clock-fill"
+              viewBox="0 0 16 16">
+              <path
+                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
+            </svg></div>
+          <div>
+            <h3>24/7</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="freshArrival">
+      <h1>FRESH ARRIVAL</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 18rem; height: auto;">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbuSxicU6emcmVWAUBGWoYDXUsCM6qxbRVXg&usqp=CAU"
+                class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Men's T-Shirt</h5>
+                <p class="card-text">PKR 1200</p>
+                <a href="#" class="btn btn-primary">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem; height: auto;">
+              <img
+                src="data:image/jpeg;base64,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"
+                class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Men's Jeans</h5>
+                <p class="card-text">PKR 1400</p>
+                <a href="#" class="btn btn-primary">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem; height: auto;">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0592/9500/6918/products/10_533x.jpg?v=1647367012"
+                class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Men's Shoes</h5>
+                <p class="card-text">PKR 2500</p>
+                <a href="#" class="btn btn-primary">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+
+      </div>
+    </div>
+    <div class="topRated">
+      <h1>TOP RATED</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 18rem; height: auto;">
+              <img
+                src="data:image/jpeg;base64,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"
+                class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Leather Wallet</h5>
+                <p class="card-text">PKR 2300</p>
+                <a href="#" class="btn btn-primary">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem; height: auto;">
+              <img height="285px"
+                src="https://zamani.pk/wp-content/uploads/2021/09/fancy-hollowed-out-pink-women-bags-1.jpg"
+                class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Women Handbag</h5>
+                <p class="card-text">PKR 5000</p>
+                <a href="#" class="btn btn-primary">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem; height: auto;">
+              <img
+                src="https://static-01.daraz.pk/p/d6712fa144965814920dc8d9b37d38d3.jpg"
+                class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Wrist Watch</h5>
+                <p class="card-text">PKR 3500</p>
+                <a href="#" class="btn btn-primary">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+
+      </div>
+    </div>
+    <div>
+      <h4>Copyright <svg xmlns="http://www.w3.org/2000/svg" width="25" fill="currentColor" class="bi bi-c-circle" viewBox="0 0 16 16">
+        <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z"/>
+      </svg> MetaTech</h4>
+      
+    </div>
+  </div>
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

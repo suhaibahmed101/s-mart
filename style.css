@@ -1,0 +1,106 @@
+.navbar {
+    background-color: #C62828 !important;
+    box-shadow: 3px 2px 2px 2px grey!important;
+    
+}
+.nav-link {
+    font-weight: bold;
+    color: white !important;
+}
+.bi {
+    color: white !important;
+}
+
+.one1,.two2,.three3{
+    box-shadow: 3px 3px 3px 3px grey;
+    width: 250px;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.mainCard{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    
+}
+.bi-truck,.bi-star-fill,.bi-clock-fill {
+    color: #C62828 !important;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+h3 {
+    color: #C62828;
+}
+.btn {
+    width: 100%;
+    background-color: #C62828;
+    border: 0;
+    font-weight: bold;
+}
+.card-body {
+    font-weight: bold;
+    text-align: center;
+}
+
+.freshArrival,.topRated {
+    margin-top: 50px;
+}
+.card {
+    margin-top: 20px;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 760px) {
+    .card {
+      max-width: 100%;
+      justify-content: center;
+      align-items: center;
+      margin-left: 110px;
+    }
+  }
+  @media only screen and (max-width: 520px) {
+    .card {
+      max-width: 100%;
+      justify-content: center;
+      align-items: center;
+      margin-left: 80px;
+    }
+  }
+.freshArrival>h1 {
+
+text-align: center;
+color: #C62828;
+text-shadow: 3px 5px 3px black;
+
+}
+.topRated>h1 {
+
+    text-align: center;
+    color: #C62828;
+    text-shadow: 3px 5px 3px black;
+    
+    }
+
+    .bi-c-circle {
+        color:white !important;
+    }
+h4 {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #C62828;
+    color: wheat;
+    height: 40px;
+} 
+body {
+    background-color: #ECEFF1;
+}
+    
